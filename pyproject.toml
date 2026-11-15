@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jogo-pds"
+version = "0.1.0"
+description = "Base acadêmica de jogo de tabuleiro para dois jogadores no terminal"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+jogo-pds = "jogo_pds.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

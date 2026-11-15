@@ -1,0 +1,1 @@
+"""Interação exclusivamente pelo terminal."""
